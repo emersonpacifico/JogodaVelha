@@ -1,0 +1,55 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  display: block;
+  max-width: 0px;
+}
+.container,
+h1 {
+  text-align: center;
+  margin-top: 80px;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(213, 231, 148);
+  border: 1px solid rgb(153, 198, 216);
+  display: inline-block;
+}
+.o {
+  position: relative;
+}
+.o::after {
+  content: url(./assents/css0.png);
+  line-height: 100px;
+  position: absolute;
+  right: 30px;
+  top: 14px;
+}
+.x {
+  position: relative;
+}
+.x::after {
+  content: url(./assents/html0.png);
+  line-height: 100px;
+  position: absolute;
+  right: 30px;
+  top: 14px;
+}
+
+.bt {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  border: none;
+}
+.bt {
+  border: none;
+  padding: 20px 40px;
+  border-radius: 4px;
+  background-color: #0069d9;
+  color: #fff;
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
